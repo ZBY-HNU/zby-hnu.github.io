@@ -1,6 +1,6 @@
-# zby.github.io
+# zby-hnu.github.io
 
-页面显示名称为 zby.github.io；实际访问地址为 https://james-harde.github.io/。
+页面显示名称为 zby-hnu.github.io；实际访问地址为 https://zby-hnu.github.io/。
 
 机器人项目展示：宇树 G1 动作演示与 VLA 仿真任务。
 
