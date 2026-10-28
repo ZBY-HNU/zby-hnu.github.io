@@ -1,0 +1,14 @@
+{
+  "referencePage": "https://cyyy-00.github.io/#g1",
+  "retrievedDate": "2026-10-28",
+  "videos": [
+    {"file":"assets/videos/g1-01.mp4","source":"https://cyyy-00.github.io/assets/videos/g1-01.mp4"},
+    {"file":"assets/videos/g1-02.mp4","source":"https://cyyy-00.github.io/assets/videos/g1-02.mp4"},
+    {"file":"assets/videos/g1-03.mp4","source":"https://cyyy-00.github.io/assets/videos/5.mp4"},
+    {"file":"assets/videos/g1-04.mp4","source":"https://cyyy-00.github.io/assets/videos/6.mp4"},
+    {"file":"assets/videos/task1.webm","source":"用户提供的 task1操作视频.webm"},
+    {"file":"assets/videos/task2.webm","source":"用户提供的 task2操作视频.webm"},
+    {"file":"assets/videos/task3.webm","source":"用户提供的 task3的操作视频.webm"}
+  ],
+  "posters": "从对应视频第 1 秒提取；保持画面比例。"
+}

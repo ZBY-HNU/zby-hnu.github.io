@@ -1,0 +1,7 @@
+{
+  "name": "robotics-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "宇树 G1 和 VLA 仿真个人项目展示页",
+  "scripts": { "dev": "node server.mjs", "start": "node server.mjs" }
+}
