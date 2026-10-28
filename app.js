@@ -31,11 +31,13 @@ for (const project of projects) {
   section.setAttribute('aria-labelledby', `${project.id}-title`);
   const heading = element('div', 'project-head');
   const headingText = element('div');
-  headingText.append(element('p', 'project-meta', `Project ${project.number} · ${project.label}`));
+  headingText.append(element('p', 'project-meta', `Project ${project.number} · ${project.period} · ${project.label}`));
   const title = element('h2', '', project.title);
   title.id = `${project.id}-title`;
   headingText.append(title);
-  heading.append(headingText, element('span', 'tag', `${project.videos.length} 个演示视频`));
+  const tags = element('div', 'tags');
+  for (const label of project.tags || []) tags.append(element('span', 'tag', label));
+  heading.append(headingText, tags);
   const intro = element('div', 'section-top');
   intro.append(element('h3', '', '项目视频'), element('p', '', project.description));
   const grid = element('div', `video-grid ${project.id === 'vla' ? 'vla-grid' : ''}`);
@@ -78,12 +80,5 @@ for (const project of projects) {
     else video.src = item.src;
   }
   section.append(heading, intro, grid);
-  if (project.source) {
-    const source = element('a', 'source-link', project.source.label);
-    source.href = project.source.url;
-    source.target = '_blank';
-    source.rel = 'noopener noreferrer';
-    section.append(source);
-  }
   main.append(section);
 }

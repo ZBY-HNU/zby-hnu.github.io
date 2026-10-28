@@ -2,7 +2,8 @@
 window.PORTFOLIO_PROJECTS = [
   {
     id: 'g1', number: '01', title: '宇树 G1', description: '机器人动作演示',
-    label: 'Unitree G1', source: { label: '视频来源：参考主页', url: 'https://cyyy-00.github.io/#g1' },
+    label: 'Unitree G1', period: '2026.06–2026.08',
+    tags: ['动作复现', 'Sim2Sim / Sim2Real', '真机稳定部署'],
     videos: [
       { id: 'g1-01', title: 'G1 展示视频 01', src: 'assets/videos/g1-01.mp4', poster: 'assets/posters/g1-01.jpg', available: true },
       { id: 'g1-02', title: 'G1 展示视频 02', src: 'assets/videos/g1-02.mp4', poster: 'assets/posters/g1-02.jpg', available: true },
@@ -12,6 +13,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     id: 'vla', number: '02', title: 'VLA 仿真', description: 'Vision-Language-Action 仿真任务展示', label: 'Simulation',
+    period: '2026.08–2026.10', tags: ['视觉语言动作', '仿真任务执行'],
     videos: [
       { id: 'task1', title: 'Task 1 · 仿真任务演示', src: 'assets/videos/task1.webm', poster: 'assets/posters/task1.jpg', available: true },
       { id: 'task2', title: 'Task 2 · 仿真任务演示', src: 'assets/videos/task2.webm', poster: 'assets/posters/task2.jpg', available: true },
