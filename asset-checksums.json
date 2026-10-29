@@ -54,5 +54,29 @@
   "assets/videos/task3.webm": {
     "bytes": 20221294,
     "sha256": "4e27c4866e5830eb6d975cd86472ed567e72d39166fdb0ce5cc27e614e47195d"
+  },
+  "assets/images/huawei-correlation.png": {
+    "bytes": 136663,
+    "sha256": "096ee69a40efcdf9070f90276498ca60eb1f1837b3420427eebb265d5b1020da"
+  },
+  "assets/images/huawei-thermal.png": {
+    "bytes": 95125,
+    "sha256": "ed821a5e036675e39ba7935d0f1060301283c3fd96192afdcc24e69d465778f6"
+  },
+  "assets/images/huawei-average.png": {
+    "bytes": 551240,
+    "sha256": "fab1d128082377d00131c3e551f43a2194289f82cf6ef8af5834d9fb0355aa2f"
+  },
+  "assets/images/huawei-maximum.png": {
+    "bytes": 309756,
+    "sha256": "b37d1f32ca10fd47c70fe0c1ec9c08c4cd9b693e946fc9bf4cbcdcc7e679d48d"
+  },
+  "assets/videos/agent-demo.mp4": {
+    "bytes": 18113392,
+    "sha256": "3c4fc14b0b5acb4c8a5a9a461d14236c7295173950082d9f541b7996e7f679a7"
+  },
+  "assets/posters/agent-demo.jpg": {
+    "bytes": 164368,
+    "sha256": "18fa5297c72313b1ac3afa2f75f2011d9e9d74267a049ace1dc21034fb61eb72"
   }
 }

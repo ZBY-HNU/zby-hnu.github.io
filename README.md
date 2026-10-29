@@ -1,25 +1,19 @@
-# zby-hnu.github.io
+# Portfolio
 
-页面显示名称为 zby-hnu.github.io；实际访问地址为 https://zby-hnu.github.io/。
-
-机器人项目展示：宇树 G1 动作演示与 VLA 仿真任务。
+个人项目展示页，访问地址 https://zby-hnu.github.io/。
 
 ## 内容
 
-- 宇树 G1：4 个视频，项目时间 2026.06–2026.08。
-- VLA 仿真：Task 1、Task 2、Task 3 三个视频，项目时间 2026.08–2026.10。
-- 全部视频和真实画面封面位于 `assets/`，使用相对路径。
+按华为、VLA、人形机器人、Agent 排列，4 个项目、8 个视频和 4 张图表。
+- 华为：2026.03–2026.06，相关性分析与在线调度结果图。
+- VLA：2026.08–2026.10，保留 Task 1–3 视频。
+- 人形机器人：2026.06–2026.08，保留 4 个 G1 视频。
+- Agent：2026.05–2026.06，用户提供的完整操作演示录像。
+
+图表支持点击放大、前后翻页、方向键和 Escape 关闭。不提供 PPT 原文件下载。
 
 ## 维护
 
-编辑 `projects.js` 修改项目标题、说明、视频或封面路径；编辑 `style.css` 调整外观。将更改提交到 `main` 后，GitHub Pages 会重新发布。
+编辑 projects.js 修改文案与素材，style.css 修改样式。node server.mjs 启动本地预览，GitHub Pages 使用 main 分支根目录。
 
-## 本地预览
-
-安装 Node.js 后，在此目录运行 `node server.mjs`，打开终端显示的本地预览地址。不需要安装依赖。预览服务只监听本机，使用 Ctrl+C 停止。
-
-## GitHub Pages
-
-仓库 Settings → Pages，选择 Deploy from a branch、main、/(root)。`index.html` 位于仓库根目录，`.nojekyll` 禁用 Jekyll 构建。网站不需要服务器端程序。
-
-`media-sources.json` 记录视频来源，`asset-checksums.json` 记录媒体文件校验值。
+华为选图与 Agent 演示素材已按用户要求整合，发布至原 GitHub Pages 地址。

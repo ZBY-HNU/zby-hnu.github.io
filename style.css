@@ -11,7 +11,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #0891
 .hero{background:radial-gradient(circle at top left,rgba(34,211,238,.2),transparent 28%),radial-gradient(circle at top right,rgba(59,130,246,.18),transparent 25%),linear-gradient(135deg,#020617 0%,#0f172a 48%,#1e293b 100%);color:#fff;padding-bottom:48px;border-bottom:1px solid #ffffff14}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0}
 .brand{font-weight:700;letter-spacing:.02em}
-.nav-links{display:flex;gap:24px;color:#ffffffe0;font-size:14px}
+.nav-links{display:flex;flex-wrap:wrap;gap:24px;color:#ffffffe0;font-size:14px}
 .nav-links a{padding:8px 0}
 .hero-content{padding:44px 0 16px}
 .eyebrow{display:inline-block;margin:0 0 14px;padding:8px 14px;border:1px solid #ffffff29;border-radius:999px;background:#ffffff14;color:#ffffffe6;font-size:13px}
@@ -38,6 +38,16 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #0891
 .video-box{position:relative;aspect-ratio:16/9;background:#020617}
 .project-video{display:block;width:100%;height:100%;object-fit:contain;background:#020617}
 .media-title{margin:0;padding:14px 16px 16px;font-size:14px;font-weight:600;line-height:1.6}
+.image-open{display:block;width:100%;padding:0;border:0;border-radius:0;background:#fff;cursor:zoom-in}
+.project-image{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:white}
+#agent .video-grid{grid-template-columns:minmax(0,760px)}
+.image-viewer{width:min(1200px,96vw);max-height:94dvh;padding:20px;border:1px solid var(--line);border-radius:20px;background:white;color:var(--text)}
+.image-viewer::backdrop{background:#020617dc}
+.viewer-image{display:block;width:100%;height: min(65dvh,760px);object-fit:contain;background:white}
+.viewer-close{display:block;margin:0 0 12px auto}
+.viewer-caption{text-align:center;line-height:1.6}
+.viewer-controls{display:flex;justify-content:center;gap:16px}
+.viewer-open{overflow:hidden}
 .video-error{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;text-align:center;background:#0f172af5;color:white;font-size:13px;line-height:1.6}
 [hidden]{display:none!important}
 button{font:inherit;cursor:pointer;background:#ecfeff;border:1px solid #bae6fd;border-radius:8px;padding:8px 14px;color:#155e75}

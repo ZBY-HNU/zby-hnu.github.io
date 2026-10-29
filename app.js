@@ -39,7 +39,7 @@ for (const project of projects) {
   for (const label of project.tags || []) tags.append(element('span', 'tag', label));
   heading.append(headingText, tags);
   const intro = element('div', 'section-top');
-  intro.append(element('h3', '', '项目视频'), element('p', '', project.description));
+  intro.append(element('h3', '', project.images?.length ? '项目图表' : project.videos.length ? '项目视频' : '项目介绍'), element('p', '', project.description));
   const grid = element('div', `video-grid ${project.id === 'vla' ? 'vla-grid' : ''}`);
 
   for (const item of project.videos) {
@@ -79,6 +79,61 @@ for (const project of projects) {
     } else if (observer) observer.observe(video);
     else video.src = item.src;
   }
-  section.append(heading, intro, grid);
+  section.append(heading, intro);
+  if (project.images?.length) {
+    const gallery = element('div', 'video-grid image-grid');
+    project.images.forEach((item, index) => {
+      const card = element('article', 'media-card');
+      const open = element('button', 'image-open');
+      open.type = 'button';
+      open.setAttribute('aria-label', `放大查看：${item.title}`);
+      const img = element('img', 'project-image');
+      img.src = item.src; img.alt = item.title; img.loading = 'lazy';
+      open.append(img);
+      open.addEventListener('click', () => openGallery(project.images, index, open));
+      card.append(open, element('h4', 'media-title', item.title));
+      gallery.append(card);
+    });
+    section.append(gallery);
+  }
+  if (project.videos.length) section.append(grid);
   main.append(section);
 }
+
+// 原图查看器：保留原始比例，支持按钮、方向键和 Escape。
+const viewer = element('dialog', 'image-viewer');
+viewer.setAttribute('aria-label', '项目图表查看器');
+const closeViewer = element('button', 'viewer-close', '关闭 ×');
+closeViewer.type = 'button';
+const fullImage = element('img', 'viewer-image');
+const caption = element('p', 'viewer-caption');
+caption.setAttribute('aria-live', 'polite');
+const controls = element('div', 'viewer-controls');
+const prev = element('button', '', '上一张');
+const next = element('button', '', '下一张');
+prev.type = next.type = 'button';
+controls.append(prev, next);
+viewer.append(closeViewer, fullImage, caption, controls);
+document.body.append(viewer);
+let activeImages = [], activeIndex = 0, opener;
+function showImage(index) {
+  activeIndex = (index + activeImages.length) % activeImages.length;
+  const item = activeImages[activeIndex];
+  fullImage.src = item.src; fullImage.alt = item.title;
+  caption.textContent = `${activeIndex + 1} / ${activeImages.length} · ${item.title}`;
+}
+function openGallery(images, index, trigger) {
+  activeImages = images; opener = trigger; showImage(index);
+  players.forEach(video => video.pause());
+  viewer.showModal(); document.body.classList.add('viewer-open');
+}
+prev.addEventListener('click', () => showImage(activeIndex - 1));
+next.addEventListener('click', () => showImage(activeIndex + 1));
+closeViewer.addEventListener('click', () => viewer.close());
+viewer.addEventListener('close', () => { document.body.classList.remove('viewer-open'); opener?.focus(); });
+viewer.addEventListener('click', e => { if (e.target === viewer) viewer.close(); });
+viewer.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+    e.preventDefault(); showImage(activeIndex + (e.key === 'ArrowRight' ? 1 : -1));
+  }
+});

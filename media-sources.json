@@ -2,13 +2,60 @@
   "referencePage": "https://cyyy-00.github.io/#g1",
   "retrievedDate": "2026-10-28",
   "videos": [
-    {"file":"assets/videos/g1-01.mp4","source":"https://cyyy-00.github.io/assets/videos/g1-01.mp4"},
-    {"file":"assets/videos/g1-02.mp4","source":"https://cyyy-00.github.io/assets/videos/g1-02.mp4"},
-    {"file":"assets/videos/g1-03.mp4","source":"https://cyyy-00.github.io/assets/videos/5.mp4"},
-    {"file":"assets/videos/g1-04.mp4","source":"https://cyyy-00.github.io/assets/videos/6.mp4"},
-    {"file":"assets/videos/task1.webm","source":"用户提供的 task1操作视频.webm"},
-    {"file":"assets/videos/task2.webm","source":"用户提供的 task2操作视频.webm"},
-    {"file":"assets/videos/task3.webm","source":"用户提供的 task3的操作视频.webm"}
+    {
+      "file": "assets/videos/g1-01.mp4",
+      "source": "https://cyyy-00.github.io/assets/videos/g1-01.mp4"
+    },
+    {
+      "file": "assets/videos/g1-02.mp4",
+      "source": "https://cyyy-00.github.io/assets/videos/g1-02.mp4"
+    },
+    {
+      "file": "assets/videos/g1-03.mp4",
+      "source": "https://cyyy-00.github.io/assets/videos/5.mp4"
+    },
+    {
+      "file": "assets/videos/g1-04.mp4",
+      "source": "https://cyyy-00.github.io/assets/videos/6.mp4"
+    },
+    {
+      "file": "assets/videos/task1.webm",
+      "source": "用户提供的 task1操作视频.webm"
+    },
+    {
+      "file": "assets/videos/task2.webm",
+      "source": "用户提供的 task2操作视频.webm"
+    },
+    {
+      "file": "assets/videos/task3.webm",
+      "source": "用户提供的 task3的操作视频.webm"
+    },
+    {
+      "file": "assets/videos/agent-demo.mp4",
+      "source": "用户提供的 Agent 演示录像"
+    }
   ],
-  "posters": "从对应视频第 1 秒提取；保持画面比例。"
+  "posters": "从对应视频第 1 秒提取；保持画面比例。",
+  "images": [
+    {
+      "file": "assets/images/huawei-correlation.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 9
+    },
+    {
+      "file": "assets/images/huawei-thermal.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 47
+    },
+    {
+      "file": "assets/images/huawei-average.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 48
+    },
+    {
+      "file": "assets/images/huawei-maximum.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 48
+    }
+  ]
 }

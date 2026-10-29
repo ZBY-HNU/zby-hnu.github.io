@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const port = Number(process.env.PORT || 4173);
-const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.jpg':'image/jpeg','.mp4':'video/mp4','.webm':'video/webm','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8'};
+const mime = {'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.png':'image/png','.jpg':'image/jpeg','.mp4':'video/mp4','.webm':'video/webm','.json':'application/json; charset=utf-8','.md':'text/plain; charset=utf-8'};
 http.createServer((req,res) => {
   if (!['GET','HEAD'].includes(req.method)) { res.writeHead(405).end(); return; }
   let name;
