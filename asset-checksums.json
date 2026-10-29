@@ -78,5 +78,21 @@
   "assets/posters/agent-demo.jpg": {
     "bytes": 164368,
     "sha256": "18fa5297c72313b1ac3afa2f75f2011d9e9d74267a049ace1dc21034fb61eb72"
+  },
+  "assets/images/huawei-scatter.png": {
+    "bytes": 313460,
+    "sha256": "943b20da3e88a28b73c24a1c64979f7e337f7cfad32842921606d29976534fe7"
+  },
+  "assets/images/huawei-temperature.png": {
+    "bytes": 512622,
+    "sha256": "6a3416cd945361c9cd00673dd04328801594e4e90d6acda57970fdf6e8d4cdc6"
+  },
+  "assets/images/huawei-excess-curve.png": {
+    "bytes": 514726,
+    "sha256": "5281dd25a7c962a50dbf445d902bd55e23a64b96e4299bb74bc911782aca0497"
+  },
+  "assets/images/huawei-app-average.png": {
+    "bytes": 218545,
+    "sha256": "42ee20e00652744377f7ff1d157aca8c4eff6e60e1e57977a54ee8d8bcbdb7ea"
   }
 }

@@ -15,8 +15,20 @@ window.PORTFOLIO_PROJECTS = [
     "videos": [],
     "images": [
       {
+        "title": "启动时长 · 参数散点与箱线分析",
+        "src": "assets/images/huawei-scatter.png"
+      },
+      {
         "title": "启动时长 · Pearson / Spearman 相关性分析",
         "src": "assets/images/huawei-correlation.png"
+      },
+      {
+        "title": "在线调度 · 整体温度变化",
+        "src": "assets/images/huawei-temperature.png"
+      },
+      {
+        "title": "在线调度 · 每秒超温面积变化",
+        "src": "assets/images/huawei-excess-curve.png"
       },
       {
         "title": "在线调度 · 总超温面积对比",
@@ -29,6 +41,10 @@ window.PORTFOLIO_PROJECTS = [
       {
         "title": "在线调度 · 每轮次最大启动时间",
         "src": "assets/images/huawei-maximum.png"
+      },
+      {
+        "title": "在线调度 · 各 APP 平均启动时间",
+        "src": "assets/images/huawei-app-average.png"
       }
     ]
   },

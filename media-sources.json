@@ -38,9 +38,24 @@
   "posters": "从对应视频第 1 秒提取；保持画面比例。",
   "images": [
     {
+      "file": "assets/images/huawei-scatter.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 9
+    },
+    {
       "file": "assets/images/huawei-correlation.png",
       "source": "用户提供的性能热融合调度演示文稿",
       "slide": 9
+    },
+    {
+      "file": "assets/images/huawei-temperature.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 46
+    },
+    {
+      "file": "assets/images/huawei-excess-curve.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 46
     },
     {
       "file": "assets/images/huawei-thermal.png",
@@ -56,6 +71,11 @@
       "file": "assets/images/huawei-maximum.png",
       "source": "用户提供的性能热融合调度演示文稿",
       "slide": 48
+    },
+    {
+      "file": "assets/images/huawei-app-average.png",
+      "source": "用户提供的性能热融合调度演示文稿",
+      "slide": 49
     }
   ]
 }
