@@ -94,5 +94,13 @@
   "assets/images/huawei-app-average.png": {
     "bytes": 218545,
     "sha256": "42ee20e00652744377f7ff1d157aca8c4eff6e60e1e57977a54ee8d8bcbdb7ea"
+  },
+  "assets/videos/vla-arm-simulation.mp4": {
+    "bytes": 7908862,
+    "sha256": "2d6e50e31c694626cab318583ce392e055dd10e2138f1e574504652331db759d"
+  },
+  "assets/posters/vla-arm-simulation.jpg": {
+    "bytes": 115852,
+    "sha256": "6ad8695e5221ae41d5b87efaafe1c860c508caf0efe7f369dc101c27d16387c4"
   }
 }

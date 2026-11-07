@@ -80,6 +80,13 @@ window.PORTFOLIO_PROJECTS = [
         "src": "assets/videos/task3.webm",
         "poster": "assets/posters/task3.jpg",
         "available": true
+      },
+      {
+        "id": "vla-arm-simulation",
+        "title": "机械臂仿真 · 操作演示",
+        "src": "assets/videos/vla-arm-simulation.mp4",
+        "poster": "assets/posters/vla-arm-simulation.jpg",
+        "available": true
       }
     ]
   },
