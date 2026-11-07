@@ -41,6 +41,13 @@
       "embeddedMedia": "ppt/media/media13.mp4",
       "processing": "转为 H.264；保留完整时长、720×1280 画面与音轨。",
       "posterTimeSeconds": 31.86
+    },
+    {
+      "file": "assets/videos/leju-act-wheelchair.mp4",
+      "source": "用户提供的面试演示文稿",
+      "slide": 6,
+      "embeddedMedia": "ppt/media/media8.mp4",
+      "processing": "转为 H.264；保留完整时长、画面与音轨。"
     }
   ],
   "posters": "从对应视频第 1 秒提取；机械臂仿真演示使用第 31.86 秒；保持画面比例。",

@@ -40,7 +40,7 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #0891
 .media-title{margin:0;padding:14px 16px 16px;font-size:14px;font-weight:600;line-height:1.6}
 .image-open{display:block;width:100%;padding:0;border:0;border-radius:0;background:#fff;cursor:zoom-in}
 .project-image{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:white}
-#agent .video-grid{grid-template-columns:minmax(0,760px)}
+#agent .video-grid,#leju .video-grid{grid-template-columns:minmax(0,760px)}
 .image-viewer{width:min(1200px,96vw);max-height:94dvh;padding:20px;border:1px solid var(--line);border-radius:20px;background:white;color:var(--text)}
 .image-viewer::backdrop{background:#020617dc}
 .viewer-image{display:block;width:100%;height: min(65dvh,760px);object-fit:contain;background:white}
@@ -58,3 +58,5 @@ button{font:inherit;cursor:pointer;background:#ecfeff;border:1px solid #bae6fd;b
 @media(max-width:1100px){.video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.container{width:calc(100% - 24px)}.nav{align-items:flex-start;flex-direction:column;gap:8px}.hero-content{padding-top:34px}.video-grid{grid-template-columns:1fr}.hero-stats{max-width:none}.project-head{gap:16px}.project-section{padding-top:40px}.section-top{align-items:start;gap:8px}.hero h1{font-size:clamp(30px,8.5vw,36px);line-height:1.2}.hero-desc{font-size:16px}.footer-inner{font-size:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.media-card{transition:none}}
+
+.coursework-section{margin-top:52px;border-top:1px solid var(--line)}

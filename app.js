@@ -5,7 +5,8 @@ const players = [];
 const unavailable = new Set(projects.flatMap(p => p.videos.filter(v => !v.available).map(v => v.id)));
 const total = projects.reduce((count, p) => count + p.videos.length, 0);
 const updateCount = () => { document.getElementById('video-count').textContent = total - unavailable.size; };
-document.getElementById('project-count').textContent = projects.length;
+document.getElementById('project-count').textContent = projects.filter(p => p.kind !== 'coursework').length;
+document.getElementById('coursework-count').textContent = projects.filter(p => p.kind === 'coursework').length;
 updateCount();
 
 function element(tag, className, text) {
@@ -31,7 +32,9 @@ for (const project of projects) {
   section.setAttribute('aria-labelledby', `${project.id}-title`);
   const heading = element('div', 'project-head');
   const headingText = element('div');
-  headingText.append(element('p', 'project-meta', `Project ${project.number} · ${project.period} · ${project.label}`));
+  const meta = project.kind === 'coursework' ? '课程作业' : [`Project ${project.number}`, project.period, project.label].filter(Boolean).join(' · ');
+  headingText.append(element('p', 'project-meta', meta));
+  if (project.kind === 'coursework') section.classList.add('coursework-section');
   const title = element('h2', '', project.title);
   title.id = `${project.id}-title`;
   headingText.append(title);

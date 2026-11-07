@@ -102,5 +102,13 @@
   "assets/posters/vla-arm-simulation.jpg": {
     "bytes": 115852,
     "sha256": "6ad8695e5221ae41d5b87efaafe1c860c508caf0efe7f369dc101c27d16387c4"
+  },
+  "assets/videos/leju-act-wheelchair.mp4": {
+    "bytes": 1985589,
+    "sha256": "b5496ba4c5a1bcca9b3528cf55dbf53fdda6cfff71df79b7a8282d3acd94c863"
+  },
+  "assets/posters/leju-act-wheelchair.jpg": {
+    "bytes": 62313,
+    "sha256": "5aa70ba01a42e35dbe5316262b4f4ea05d4c83051bee1d64fd6e7cd2b433c9c9"
   }
 }

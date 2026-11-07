@@ -134,12 +134,32 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
-    "id": "agent",
+    "id": "leju",
     "number": "04",
+    "title": "乐聚机器人 ACT · 轮椅协作",
+    "description": "结合人工示教数据与 ACT 模仿学习，展示轮椅把手抓握、接近对齐与连续推行任务。",
+    "label": "ACT 模仿学习",
+    "tags": [
+      "ACT",
+      "模仿学习",
+      "轮椅协作"
+    ],
+    "videos": [
+      {
+        "id": "leju-act-wheelchair",
+        "title": "乐聚机器人 · 轮椅推行演示",
+        "src": "assets/videos/leju-act-wheelchair.mp4",
+        "poster": "assets/posters/leju-act-wheelchair.jpg",
+        "available": true
+      }
+    ],
+    "period": "2026.06–2026.07"
+  },
+  {
+    "id": "agent",
     "title": "磁盘状态管理 Agent",
     "description": "基于 FastAPI 与 LangGraph 构建磁盘运维助手，结合 RAG、记忆与上下文管理，实现任务的可控执行与中断恢复。",
-    "label": "独立开发",
-    "period": "2026.05–2026.06",
+    "label": "课程作业",
     "tags": [
       "Agent Harness",
       "RAG 检索",
@@ -153,6 +173,7 @@ window.PORTFOLIO_PROJECTS = [
         "poster": "assets/posters/agent-demo.jpg",
         "available": true
       }
-    ]
+    ],
+    "kind": "coursework"
   }
 ];
