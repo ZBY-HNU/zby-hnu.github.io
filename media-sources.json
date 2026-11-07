@@ -48,9 +48,33 @@
       "slide": 6,
       "embeddedMedia": "ppt/media/media8.mp4",
       "processing": "转为 H.264；保留完整时长、画面与音轨。"
+    },
+    {
+      "file": "assets/videos/leju-fall-lab.mp4",
+      "source": "用户提供的面试演示文稿",
+      "slide": 6,
+      "embeddedMedia": "ppt/media/media5.mp4",
+      "processing": "H.264 原码流，优化网页加载；保留完整时长、画面与音轨。",
+      "posterTimeSeconds": 0
+    },
+    {
+      "file": "assets/videos/leju-fall-home.mp4",
+      "source": "用户提供的面试演示文稿",
+      "slide": 6,
+      "embeddedMedia": "ppt/media/media7.mp4",
+      "processing": "H.264 原码流，优化网页加载；保留完整时长、画面与音轨。",
+      "posterTimeSeconds": 0
+    },
+    {
+      "file": "assets/videos/wheeled-fall-detection.mp4",
+      "source": "用户提供的面试演示文稿",
+      "slide": 6,
+      "embeddedMedia": "ppt/media/media6.mp4",
+      "processing": "H.264 原码流，优化网页加载；保留完整时长、画面与音轨。",
+      "posterTimeSeconds": 0
     }
   ],
-  "posters": "从对应视频第 1 秒提取；机械臂仿真演示使用第 31.86 秒；保持画面比例。",
+  "posters": "从对应视频第 1 秒提取；机械臂仿真演示使用第 31.86 秒；新增三段跌倒场景视频使用开头画面；保持画面比例。",
   "images": [
     {
       "file": "assets/images/huawei-scatter.png",

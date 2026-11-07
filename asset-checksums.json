@@ -110,5 +110,29 @@
   "assets/posters/leju-act-wheelchair.jpg": {
     "bytes": 62313,
     "sha256": "5aa70ba01a42e35dbe5316262b4f4ea05d4c83051bee1d64fd6e7cd2b433c9c9"
+  },
+  "assets/videos/leju-fall-lab.mp4": {
+    "bytes": 1137203,
+    "sha256": "3429140fb2f3f900ee28502458f86c6d7df980c19b390c1712422fa7a3972583"
+  },
+  "assets/posters/leju-fall-lab.jpg": {
+    "bytes": 129996,
+    "sha256": "28ac602d7e0ea9f07770e98851da34d7b22c3a317e92d850281e2cba5f7924e1"
+  },
+  "assets/videos/leju-fall-home.mp4": {
+    "bytes": 1448737,
+    "sha256": "62e5274cdc5715576cbe5d453157cf4db796f5134dca8621f6573ddaca91dcd4"
+  },
+  "assets/posters/leju-fall-home.jpg": {
+    "bytes": 116211,
+    "sha256": "5c415a0f186432c4a2bbdd411d860c6947c8aadf9ea7dba55b3de140e788748d"
+  },
+  "assets/videos/wheeled-fall-detection.mp4": {
+    "bytes": 629355,
+    "sha256": "ff661b507c225cb3e23463f5f78e2ac542cd9494a45422c2a16cdeaa222d4761"
+  },
+  "assets/posters/wheeled-fall-detection.jpg": {
+    "bytes": 79980,
+    "sha256": "04ca30b499ea8213d723818c89a3bdb21c666be4cbc6565d848a5c3019e445c3"
   }
 }

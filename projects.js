@@ -136,15 +136,37 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "leju",
     "number": "04",
-    "title": "乐聚机器人 ACT · 轮椅协作",
-    "description": "结合人工示教数据与 ACT 模仿学习，展示轮椅把手抓握、接近对齐与连续推行任务。",
-    "label": "ACT 模仿学习",
+    "title": "乐聚养老机器人系统与真机部署",
+    "description": "面向养老辅助场景，在乐聚人形机器人及轮式平台上展示跌倒检测、语义确认与轮椅协作的真机部署。结合人体骨架时序特征与目标检测识别跌倒，通过 ACT 示教学习与强化学习支撑轮椅抓握、对齐和稳定推行。",
+    "label": "养老辅助 · 真机部署",
     "tags": [
-      "ACT",
-      "模仿学习",
-      "轮椅协作"
+      "真机部署",
+      "跌倒检测",
+      "语义确认",
+      "ACT 轮椅协作"
     ],
     "videos": [
+      {
+        "id": "leju-fall-lab",
+        "title": "人形机器人 · 实验室跌倒场景演示",
+        "src": "assets/videos/leju-fall-lab.mp4",
+        "poster": "assets/posters/leju-fall-lab.jpg",
+        "available": true
+      },
+      {
+        "id": "leju-fall-home",
+        "title": "人形机器人 · 家居跌倒场景演示",
+        "src": "assets/videos/leju-fall-home.mp4",
+        "poster": "assets/posters/leju-fall-home.jpg",
+        "available": true
+      },
+      {
+        "id": "wheeled-fall-detection",
+        "title": "轮式平台 · 跌倒检测演示",
+        "src": "assets/videos/wheeled-fall-detection.mp4",
+        "poster": "assets/posters/wheeled-fall-detection.jpg",
+        "available": true
+      },
       {
         "id": "leju-act-wheelchair",
         "title": "乐聚机器人 · 轮椅推行演示",
