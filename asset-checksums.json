@@ -134,5 +134,13 @@
   "assets/posters/wheeled-fall-detection.jpg": {
     "bytes": 79980,
     "sha256": "04ca30b499ea8213d723818c89a3bdb21c666be4cbc6565d848a5c3019e445c3"
+  },
+  "assets/videos/vla-real-robot.mp4": {
+    "bytes": 8055785,
+    "sha256": "c2637e0ef2098cd47d6a708aac69938688e5bb7fb94a9352a6dbaf30a0f0fa3e"
+  },
+  "assets/posters/vla-real-robot.jpg": {
+    "bytes": 101954,
+    "sha256": "bb586c287f5ceeb0017cb9c1969e937c4a25ce15eda00686424f9c22028b3d89"
   }
 }

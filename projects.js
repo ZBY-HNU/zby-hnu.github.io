@@ -51,15 +51,24 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "vla",
     "number": "02",
-    "title": "VLA 仿真",
-    "description": "Vision-Language-Action 仿真任务展示",
-    "label": "Simulation",
+    "title": "基于 VLA 的双臂轮式机器人长程操作闭环系统",
+    "description": "面向家居场景的语言指令驱动操作，将视觉观测、关节状态、动作序列及任务指令整理为 LeRobot 格式，完成观测—动作对齐与归一化；基于 OpenPI（JAX）对 π₀.₅ 进行 LoRA 微调，部署策略推理服务并对接相机、状态反馈与动作控制接口，开展机械臂操作及长程任务真机验证。",
+    "label": "VLA 后训练 · 真机部署",
     "period": "2026.08–2026.10",
     "tags": [
-      "视觉语言动作",
-      "仿真任务执行"
+      "OpenPI · π₀.₅",
+      "LoRA 后训练",
+      "LeRobot",
+      "真机部署"
     ],
     "videos": [
+      {
+        "id": "vla-real-robot",
+        "title": "松灵机器人 · VLA 真机操作演示",
+        "src": "assets/videos/vla-real-robot.mp4",
+        "poster": "assets/posters/vla-real-robot.jpg",
+        "available": true
+      },
       {
         "id": "task1",
         "title": "Task 1 · 仿真任务演示",
