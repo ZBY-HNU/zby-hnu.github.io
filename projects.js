@@ -190,7 +190,7 @@ window.PORTFOLIO_PROJECTS = [
     "id": "agent",
     "title": "磁盘状态管理 Agent",
     "description": "基于 FastAPI 与 LangGraph 构建磁盘运维助手，结合 RAG、记忆与上下文管理，实现任务的可控执行与中断恢复。",
-    "label": "课程作业",
+    "label": "独立开发",
     "tags": [
       "Agent Harness",
       "RAG 检索",

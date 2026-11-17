@@ -32,7 +32,7 @@ for (const project of projects) {
   section.setAttribute('aria-labelledby', `${project.id}-title`);
   const heading = element('div', 'project-head');
   const headingText = element('div');
-  const meta = project.kind === 'coursework' ? '课程作业' : [`Project ${project.number}`, project.period, project.label].filter(Boolean).join(' · ');
+  const meta = project.kind === 'coursework' ? '独立开发' : [`Project ${project.number}`, project.period, project.label].filter(Boolean).join(' · ');
   headingText.append(element('p', 'project-meta', meta));
   if (project.kind === 'coursework') section.classList.add('coursework-section');
   const title = element('h2', '', project.title);
